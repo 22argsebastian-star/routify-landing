@@ -1,7 +1,7 @@
 "use client";
 
 import { motion, type Variants } from "framer-motion";
-import { Zap, Bell, QrCode, BarChart3, Check, ChevronDown } from "lucide-react";
+import { Zap, Bell, ClipboardCheck, BarChart3, Check, ChevronDown } from "lucide-react";
 import FadeInSection from "@/components/ui/FadeInSection";
 import GradientText from "@/components/ui/GradientText";
 
@@ -26,11 +26,11 @@ const tiers = [
     value: "$8,000 MXN/mes",
   },
   {
-    icon: QrCode,
+    icon: ClipboardCheck,
     tag: "Bonus 1",
-    title: "Códigos QR para Abordar",
+    title: "Checklist de Abordaje para el Chofer",
     description:
-      "Cada reserva genera un código QR único. El chofer lo escanea al abordar y ve al instante si el viaje está pagado completo o si hay saldo pendiente para cobrar en efectivo. Sin papeles, sin encargado verificando — el conductor gestiona todo solo.",
+      "El chofer abre su panel en el celular y ve la lista de pasajeros del viaje con un toque. Marca quién abordó y el sistema detecta automáticamente quién no se presentó. Sin papeles, sin encargado verificando — el conductor gestiona todo solo.",
     value: "$6,000 MXN",
   },
   {

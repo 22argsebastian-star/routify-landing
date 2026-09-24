@@ -64,7 +64,7 @@ export default function PrivacidadPage() {
               <li>Verificar comprobantes de pago</li>
               <li>Enviar recordatorios y notificaciones relacionadas con el viaje</li>
               <li>Generar reportes operativos para el negocio cliente</li>
-              <li>Validar la identidad del pasajero al momento de abordar (código QR)</li>
+              <li>Validar la identidad del pasajero al momento de abordar (checklist del conductor)</li>
               <li>Mejorar y mantener el servicio de automatización</li>
             </ul>
             <p className="mt-2">

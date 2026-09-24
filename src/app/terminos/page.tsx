@@ -61,7 +61,7 @@ export default function TerminosPage() {
               <li>Verificación automática de comprobantes de pago</li>
               <li>Generación de links de pago personalizados</li>
               <li>Recordatorios automáticos anti no-shows</li>
-              <li>Generación de códigos QR para verificación de abordaje</li>
+              <li>Panel de checklist de abordaje para el conductor</li>
               <li>Reportes diarios automáticos</li>
               <li>Implementación personalizada según las rutas, horarios y precios del cliente</li>
             </ul>
